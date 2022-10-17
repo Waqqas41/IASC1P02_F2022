@@ -1,0 +1,33 @@
+.color {
+      color: blue;
+}
+
+.size {
+    font-size: 50px;
+    position: absolute;
+    right: 50px;
+
+}
+
+.font {
+    font-family: Arial, sans-serif;
+    position: fixed;
+    right: 50px;
+    bottom:0px;
+}
+
+.case {
+    text-transform:uppercase;
+    position: relative;
+    left: 100px;
+    border: blue;
+}
+
+p .size, .font {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container{
+
+    border: 10px black;
+}
