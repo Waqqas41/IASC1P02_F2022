@@ -27,7 +27,7 @@ h1, h2 {
     border: blue;
 }
 
-p .size, .font {
+.size, .font {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
