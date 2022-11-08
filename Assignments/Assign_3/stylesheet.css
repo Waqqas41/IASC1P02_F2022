@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+.navigation, p {
+color: white;
+ position: relative;; 
+ 
+}
+.body {
+   
+ 
+position: fixed;
+left: 33%;
+bottom: 20%;
+
+   scale: 150%;
+}
+
+#b3 {
+    position:fixed;
+    right: 5px;
+   
+}
+
+
+
+#searchbar {
+   background-color: wheat;
+    color: black;
+    position: relative;
+   left: 500px;
+  
+}
+
+#slider{
+    position:fixed;
+    right: 15%;
+    
+}
+
+#b1{
+    position: relative;
+    left: 5px;
+}
+
+#b2 {
+    position:fixed;
+    right: 38%;
+    
+}
