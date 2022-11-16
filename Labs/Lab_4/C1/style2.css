@@ -1,0 +1,37 @@
+.header {
+    
+    text-align: center;
+    font-size: 11px;
+    margin: 10px 0% 10px 0%;
+    border: purple 1px dotted;
+    padding: 150px 0% 5px 0%;
+}
+
+.greenSmall{
+    font-size: 8px;
+    color: green;
+    text-align: center;
+}
+
+.orangeText{
+    color: orange;
+}
+
+.redSuper{
+    font-size: 28px;
+    color: red;
+    vertical-align: super;
+   
+}
+
+.purpleSmall{
+    color: purple;
+    text-align: right;
+    font-size: 6px;
+}
+
+.italicsSmall{
+    color: yellow;
+    text-transform: uppercase;
+    font-style: italic;
+}

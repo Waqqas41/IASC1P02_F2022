@@ -1,0 +1,22 @@
+.container {
+    background-color: green;
+    }
+    
+    .firstBox {
+        margin: 10px 1% 10px 1%;
+        border: black 3px dotted;
+        padding: 5px 1% 5px 1%;
+        font-size: 16px;
+    }
+    
+    .redText {
+        color: red;
+    }
+    
+    .lightText{
+        color: darkgreen;
+    }
+    
+    .purpleText {
+        color: purple;
+    }

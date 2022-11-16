@@ -9,7 +9,6 @@ color: white;
 }
 .body {
    
- 
 position: fixed;
 left: 33%;
 bottom: 20%;
@@ -22,8 +21,6 @@ bottom: 20%;
     right: 5px;
    
 }
-
-
 
 #searchbar {
    background-color: wheat;
