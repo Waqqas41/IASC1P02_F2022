@@ -5,23 +5,27 @@ body{
 
 
 #wrapper{
-	width:750px;
+    padding-top: 8px;
+	width:1010px;
   height:500px;
-	margin:0 auto;
-	background-color:green;
+	margin: auto;
+	background-color:white;
 }
 
 #wrapper2{
-  width: 500px;
+  width: 1000px;
   height:500px;
-  margin:0 auto;
+  margin: auto;
+  background-color: green;
 }
 
 #box1{
+    top: 100px;
   background-color: blue;
 	height:150px;
   width: 150px;
   float: left;
+  margin-left: 20%;
   margin-top: 10px;
 }
 
@@ -31,6 +35,7 @@ body{
   width: 150px;
   float: right;
   margin-top: 10px;
+  margin-right: 20%;
 }
 
 #wrapper3{
