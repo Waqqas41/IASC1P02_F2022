@@ -5,4 +5,3 @@ document.write("Output Zero Here");
 function theRest(){
 	document.getElementById("output3").innerHTML="Output Three Here";
 } 
-
