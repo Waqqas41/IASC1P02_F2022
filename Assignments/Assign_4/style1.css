@@ -35,7 +35,7 @@ html {
     overflow: hidden;
     z-index: 1;
     
-    border-bottom: 3px solid  orangered;
+    border-bottom: 3px solid orangered;
     /* Image with Transparent Text by https://www.w3schools.com/howto/howto_css_image_transparent.asp */
     background-color: peachpuff; /* Black background with 0.5 opacity */
     }
@@ -196,57 +196,6 @@ h2{
 
   }
 
-/* Simple JavaScript Quiz by https://simplestepscode.com/javascript-quiz-tutorial/ */
-.question{
-  font-weight: bold;
-  margin-bottom: 0.5em;
-  }
-
-.answers {
-  margin-bottom: 2em;
-  }
-
-#submit{
-  font-size: 16px;
-  font-weight: bold;
-  background-color: black;
-  color: orangered;
-  border: 0px;
-  border-radius: 3px;
-  padding: 16px;
-  cursor: pointer;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-
-#submit:hover{
-  background-color: orange;
-  color: orangered;
-}
-
-
-/* BMI Calculator */
-.bmiLabel{
-  font-weight: bold;
-  margin-top: 1.5em;
-  margin-bottom: -0.5em;
-}
-
-#metricBMI{
-  font-size: 16px;
-  font-weight: bold;
-  background-color: peachpuff;
-  color: orangered;
-  border: 0px;
-  border-radius: 3px;
-  padding: 16px;
-  cursor: pointer;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-
-#metricBMI:hover{
-  background-color: peachpuff;
-  color: #fff;
-}
 
 
 /* Countdown Timer by https://www.w3schools.com/howto/howto_js_countdown.asp */
@@ -281,12 +230,12 @@ h2{
 /* Other */
 /*Main*/
   body {
-    background-color: transparent;
+    background-color: peachpuff;  
     font-size: 18px;
     margin: 0;
     font-family: Helvetica, sans-serif;
     color: sienna;
-    border-radius: 20px; 
+
     }
 
   .wrapper{
@@ -321,7 +270,7 @@ h2{
     }
 
   .footer {
-    padding: 24px;
+    padding: 48px;
     text-align: left;
 
     /* Hero Image from https://www.w3schools.com/howto/howto_css_hero_image.asp */
