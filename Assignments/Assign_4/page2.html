@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<title>Basic Page with CSS + Javascript</title>
+
+    <!-- Responsive Top Navigation by https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+      <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- css link -->
+      <link href="style1.css" rel="stylesheet" type="text/css" />
+
+	</head>
+
+	<body>
+
+
+      <!-- Side Navigation by https://www.w3schools.com/howto/howto_js_sidenav.asp -->
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<a href="page1.html">What is Islam</a>
+					<a href="page2.html">5 Pillars</a>
+					<a href="page3.html">Quran & Hadith</a>
+        </div>
+
+      <!-- Sticky Navbar by https://www.w3schools.com/howto/howto_js_navbar_sticky.asp -->
+        <div class="topnav" id="navbar"> <!-- replace href="" with url to other html pages-->
+          <div class="wrapper">
+
+						<a class="home active" href="page1.html">What is Islam</a> <!-- class="active" highlights current page -->
+           
+                        <a href="page2.html">5 Pillars</a>
+                        <a href="page3.html">Quran & Hadith</a>
+
+            <!-- Responsive Top Navigation by https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+              <a href="javascript:void(0);" class="icon" onclick="openNav()"> <!-- class="icon" used to open/close nav on small screens-->
+                <i class="fa fa-bars"></i>
+              </a>
+
+          </div>
+
+        </div>
+
+
+      <div class="content">
+        <div class="wrapper">
+
+            <h1>5 pillars</h1>
+            
+            <p>Every building is built upon pillars. Similarly, Islam has 5 pillars 
+            upon which the religion is built. 
+                
+                <h3>1. Shahadah (testimony of faith)</h3> 
+                <p>It is to testify that there is none worthy of worship except 
+                Allah, and that the Prophet Muhammad is his final messenger. </p>  
+                
+                <h3>2. Salah (prayer)</h3>
+                <p>It is to establish the 5 daily prayers with sincere humility and gratitude. Prayer is what differentiates 
+                    believers from non-believers. 
+                </p> 
+
+
+                <h3>3. Sawn (fasting)</h3>
+                <p>It is to fast during the month of Ramadan (one of the months of the Islamic lunar calendar, or Hijri calendar). During this month, Muslims leave not only food from dusk till dawn, but also leave off other temptations of the world and focus on trying to strengthen their connection with Allah and improve themselves. Ramadan is marked by the sighting of the new moon cresent at the end of the month of Sha'ban. The coming Ramadan is approximately on March 22. Here's a countdown! <p id="demo"></p> </p>   
+
+                <h3>4. Zakat (charity)</h3>
+                <p>Zakat is Arabic word that means to purify. Muslims  purify their wealth by giving 2.5% 
+                of their savings every year to the poor, orphan, traveller, and some other groups. 
+                </p> 
+
+                <h3>5. Hajj (pilgrimage)</h3>
+                <p>Muslims need to perform pilgrimage to Makkah atleast once in their lifetime if they are able to do so. </p> 
+            
+            </p>
+
+            <p id="demo"></p>
+			
+            <br>	<br/>
+
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="wrapper">
+          <p id="demo"></p>
+          <h3></h3>
+          <p></p>
+					<p></p>
+        </div>
+      </div>
+
+      <!-- Scroll Back To Top Button by https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+      <!-- post js link-->
+        <script type="text/javascript" src="script1.js"></script>
+
+	</body>
+
+</html>

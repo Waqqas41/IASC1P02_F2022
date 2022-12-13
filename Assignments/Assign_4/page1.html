@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<title>Basic Page with CSS + Javascript</title>
+
+    <!-- Responsive Top Navigation by https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+      <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- css link -->
+      <link href="style1.css" rel="stylesheet" type="text/css" />
+
+	</head>
+
+	<body>
+
+      <div class="header">
+        <div class="wrapper">
+          <h1>Discover Islam</h1> 
+        </div>
+      </div>
+
+      <!-- Side Navigation by https://www.w3schools.com/howto/howto_js_sidenav.asp -->
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<a href="page1.html"> What is Islam?</a>
+					<a href="page2.html">5 Pillars</a>
+					<a href="page3.html">Quran & Hadith</a>
+        </div>
+
+      <!-- Sticky Navbar by https://www.w3schools.com/howto/howto_js_navbar_sticky.asp -->
+        <div class="topnav" id="navbar"> <!-- replace href="" with url to other html pages-->
+          <div class="wrapper">
+
+            <a href="page1.html">What is Islam?</a>
+            <a href="page2.html">5 Pillars</a>
+					<a href="page3.html">Quran & Hadith</a>
+            
+            <!-- Responsive Top Navigation by https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+              <a href="javascript:void(0);" class="icon" onclick="openNav()"> <!-- class="icon" used to open/close nav on small screens-->
+                <i class="fa fa-bars"></i>
+              </a>
+
+          </div>
+
+        </div>
+
+
+      <div class="content">
+        <div class="wrapper">
+
+       
+
+     
+          <!-- Source: https://stackoverflow.com/questions/26396544/on-hover-change-text-and-then-replace-with-original-text -->
+            <br></br>
+
+					<h1>What is Islam?</h1>
+					<p>
+            The word Islam is an Arabic word derived from the root word <i>aslama</i> which means <i>submission</i>. Adherents to Islam are called Muslims, literally <i>submitters</i>. One may ask, who or what is the submission to? Submission is to One God alone, without any partners. Therefore, we can say Islam is about peace through submission to One God without associating any partners with God. Muslims call this God <i>Allah</i>.
+                        
+            The word Allah is uniquely used to refer to the One God worthy of worship. There can be many </i>Aalihah</i> (
+            pl. for diety, singular: <i>Ilah</i>) but only One Allah. 
+            Why Arabic? To answer that, let's take a step back and look at the origins of Islam. Contrary to widespread belief, Islam actually began with the first man and prophet of God, Adam (peace be upon him), and his wife Eve. After Adam came many more prophets throughout time, including prophets well-known to the Christians and Jews such as Noah, Moses, and Jesus (peace be upon them). The prophets were each sent to their respective peoples to remind them of the message of true monotheism as people lost their way, lost the scriptures, and forgot the teachings of the previous prophets over time. However, all the Prophets sent to mankind came with the same message: believe in One God and submit to it. The final prophet sent to mankind was none other than the prophet Muhammad (peace be upon him), who lived in the city of Makkah (located in modern-day Saudi Arabia). He conveyed the final revelation from Allah to mankind, called the Quran. While the last message was sent to a primarily arabic speaking society, it is addressed to the entire world of today, transcending all languages, countries, and cultures. In fact, the Quran has been translated into numerous languages and there are Muslims in almost every region of the world.
+            
+            <div class="involved-share">
+
+     
+              <h2 class="hover"><i>Many Prophets</i></h2>
+              <h2 class="hover-other"><i>One Message</i></h2>
+            
+            </div>
+            <br><br/>
+            <br><br/>
+            <br><br/>
+
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="wrapper">
+          
+        </div>
+      </div>
+
+      <!-- Scroll Back To Top Button by https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+      <!-- post js link-->
+        <script type="text/javascript" src="script1.js"></script>
+
+	</body>
+
+</html>
