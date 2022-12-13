@@ -56,17 +56,6 @@
     }
 
 
-// BMI Calculator
-  var inputKg = document.getElementById("inputKg");
-  var inputCm = document.getElementById("inputCm");
-
-  function metricBMI(){
-    var outputBMI = Number(inputKg.value) / ( Number(inputCm.value) / 100 ) ** 2 ;
-    document.getElementById("outputBMI").innerHTML = outputBMI.toPrecision(3);
-      //.toPrecision() from https://www.w3schools.com/jsref/jsref_toprecision.asp
-  }
-
-
 // Countdown Timer by https://www.w3schools.com/howto/howto_js_countdown.asp
   // Set the date we're counting down to
     var cdDate = new Date("Mar 22, 2023 23:59:59").getTime();
@@ -96,5 +85,20 @@
       }
     }, 1000);
 
+    var clock = document.getElementById('clock');
 
-    
+setInterval(function(){
+  clock.innerHTML = getCurrentTime();
+}, 1);
+
+var clock = document.getElementById('time');
+
+function getCurrentTime() {
+  var currentDate = new Date();
+  var hours = currentDate.getHours() > 12 ? currentDate.getHours() - 12 : currentDate.getHours();
+  hours === 0 ? hours = 12 : hours = hours;
+  var minutes = currentDate.getMinutes();
+  var seconds = currentDate.getSeconds() < 10 ? '0' + currentDate.getSeconds() : currentDate.getSeconds();
+  var currentTime = hours + ':' + minutes + ':' + seconds;
+  return currentTime;
+}
